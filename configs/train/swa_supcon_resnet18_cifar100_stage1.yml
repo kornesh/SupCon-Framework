@@ -13,5 +13,5 @@ dataset: data/cifar100
 dataloaders:
   train_batch_size: 200 # the higher - the better
   valid_batch_size: 200
-  num_workers: 12 # set this to num of threads in your CPU
+  num_workers: 2 # set this to num of threads in your CPU
 
