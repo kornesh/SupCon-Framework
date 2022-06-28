@@ -4,7 +4,7 @@ model:
   num_classes: 100
 
 train:
-  n_epochs: 10
+  n_epochs: 1
   amp: True # set this to True, if your GPU supports FP16. 2080Ti - okay, 1080Ti - not okay
   ema: True # optional, but I recommend it, since the training might get unstable otherwise
   ema_decay_per_epoch: 0.3 # for middle/big datasets. Increase, if you have low amount of samples
